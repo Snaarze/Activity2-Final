@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.sqlite3
+
+# Environment variables
+.env
+
+# VS Code or other editor files
+.vscode/
+.idea/
+
+# Migrations (optional – only if you regenerate them)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Node modules if using frontend inside project
+node_modules/
